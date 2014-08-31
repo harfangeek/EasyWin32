@@ -34,15 +34,13 @@
 	*/
 	LPWSTR* ListSubkeys(HKEY key);
 
-	// TODO : Security descriptor, last modified timestamp, class
-
 	/**
 	* Get the key's last modified timestamp
 	* @param key Handle on the key
 	* @param time A pointer to a FILETIME structure that receives the last write time.
 	*             The last write time change when the key or any of its value entries is modified.
 	*
-	* A voir : retourner directement une structure SYSTEMTIME (voir FileTimeToSystemTime)?
+	* @todo retourner directement une structure SYSTEMTIME (voir FileTimeToSystemTime)?
 	*/
 	void GetKeyLastModifiedDate(HKEY key, PFILETIME time);
 
@@ -51,12 +49,12 @@
 	* @param key Handle on the key
 	* @return a pointer to a null terminated WCHAR string. The array has to be free by yourself using heapfree.
 	*
-	* A voir : L'info est récupérable avec RegQueryInfoKey mais je ne sais pas ce que représente cette "user-defined class".
+	* @todo L'info est récupérable avec RegQueryInfoKey mais je ne sais pas ce que représente cette "user-defined class".
 	*/
 	LPWSTR GetKeyClass(HKEY key);
 
 	/**
-	* A voir : Récupérer le security descriptor de la clé.
+	* @todo Récupérer le security descriptor de la clé. On peut récupéré sa taille avec RegQueryInfoKey mais j'ai pas trouvé comment le récupérer.
 	*/
 
 #endif
