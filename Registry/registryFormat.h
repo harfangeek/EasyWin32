@@ -23,15 +23,15 @@
 
 	/**
 	* Convert a value represented by a BYTE array into a QWORD according to the system endianness. Origin endianness
-	* is forced to little_endian because there is no such things as REG_QWORD_BIG_ENDIAN defined by win32
+	* is forced to little_endian because there is no such thing as REG_QWORD_BIG_ENDIAN defined by win32
 	* System endianness is automatically determined.
 	* @param data An array of BYTE representing the data to convert
 	* @param dataLen Size of the data array
-	* @return the converted DWORD value
+	* @return the converted QWORD value
 	* 
 	* @todo Voir si on peut tout de même être confronté à une valeur QWORD en big endian.
 	*/
-	QWORD byteArrayToDword(BYTE* data, size_t dataLen);
+	QWORD byteArrayToQword(BYTE* data, size_t dataLen);
 
 	/**
 	* Convert a BYTE array into a null terminated WCHAR string
