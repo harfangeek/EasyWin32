@@ -1,3 +1,7 @@
+/*
+	Somme test about displaying values
+*/
+
 #include <windows.h>
 #include <wchar.h>
 

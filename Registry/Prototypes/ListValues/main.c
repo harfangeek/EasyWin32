@@ -1,3 +1,8 @@
+/*
+	List all values from a given key (name, size and type)
+	ToDo: Display values
+*/
+
 #include <windows.h>
 #include <wchar.h>
 

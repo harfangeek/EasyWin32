@@ -1,3 +1,8 @@
+/*
+	List all subkeys of a given key
+	ToDo : What is the key class? (empty by default, see user defined class)
+*/
+
 #include <windows.h>
 #include <wchar.h>
 
