@@ -5,9 +5,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Registry", "Registry\Regist
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototypes", "Prototypes", "{4A8EDFE7-A36C-4B1A-87F1-B77775D039F2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListValues", "Registry\Test\ListValues\ListValues.vcxproj", "{A376CF64-915C-4109-8698-17B1FF068744}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListValues", "Registry\Prototypes\ListValues\ListValues.vcxproj", "{A376CF64-915C-4109-8698-17B1FF068744}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadValues", "Registry\Test\ReadValues\ReadValues.vcxproj", "{C59E78BA-9515-411B-96B9-E6FD311D77EE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadValues", "Registry\Prototypes\ReadValues\ReadValues.vcxproj", "{C59E78BA-9515-411B-96B9-E6FD311D77EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListKeys", "Registry\Prototypes\ListKeys\ListKeys.vcxproj", "{B68E673D-175D-4967-9D66-AF943C667587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C59E78BA-9515-411B-96B9-E6FD311D77EE}.Debug|Win32.Build.0 = Debug|Win32
 		{C59E78BA-9515-411B-96B9-E6FD311D77EE}.Release|Win32.ActiveCfg = Release|Win32
 		{C59E78BA-9515-411B-96B9-E6FD311D77EE}.Release|Win32.Build.0 = Release|Win32
+		{B68E673D-175D-4967-9D66-AF943C667587}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B68E673D-175D-4967-9D66-AF943C667587}.Debug|Win32.Build.0 = Debug|Win32
+		{B68E673D-175D-4967-9D66-AF943C667587}.Release|Win32.ActiveCfg = Release|Win32
+		{B68E673D-175D-4967-9D66-AF943C667587}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A376CF64-915C-4109-8698-17B1FF068744} = {4A8EDFE7-A36C-4B1A-87F1-B77775D039F2}
 		{C59E78BA-9515-411B-96B9-E6FD311D77EE} = {4A8EDFE7-A36C-4B1A-87F1-B77775D039F2}
+		{B68E673D-175D-4967-9D66-AF943C667587} = {4A8EDFE7-A36C-4B1A-87F1-B77775D039F2}
 	EndGlobalSection
 EndGlobal
